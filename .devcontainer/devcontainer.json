@@ -1,6 +1,11 @@
 {
-  "name": "Devcontainer",
+  "name": "Navi",
   "build": {
     "dockerfile": "./Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["huacnlee.navi"]
+    }
   }
 }
